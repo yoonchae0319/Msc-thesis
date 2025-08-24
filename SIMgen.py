@@ -21,9 +21,9 @@ import itertools as itertools
 
 #genealogy simuation
 seq_length = 5_000_000 ##1MB
-#Ttime = np.arange(0, 6e3+700, 600)
-#transition_time = int(np.random.choice(Ttime))
-transition_time = int(0.0)
+Ttime = np.arange(0, 6e3+700, 600)
+transition_time = int(np.random.choice(Ttime))
+#transition_time = int(0.0)
 
 
 #print(f"Simulating with transition_time = {transition_time}")
